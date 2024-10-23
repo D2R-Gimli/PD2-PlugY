@@ -5,12 +5,12 @@ This repository combines both the [PD2-Singleplayer](https://github.com/BetweenW
 
 ---
 
-### [Download PlugY with item pack and characters](https://github.com/user-attachments/files/17487512/PD2-PlugY-with-Extras.zip) 
+### [Download PlugY with item pack and characters](https://github.com/xkanzeon/PD2-PlugY/blob/main/PD2-PlugY-with-Extras.zip) 
 
 ---
 
 Alternatively, if you are only interested in running PlugY cleanly:
-### [Download PlugY Only](https://github.com/user-attachments/files/17487491/PD2-PlugY.zip)
+### [Download PlugY Only](https://github.com/xkanzeon/PD2-PlugY/blob/main/PD2-PlugY.zip)
 
 ---
 
