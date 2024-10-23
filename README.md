@@ -3,30 +3,35 @@ This collection aims to include everything you'd want for singleplayer testing i
 
 This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls.
 
+---
 
-### [Download PlugY with item pack and characters](https://github.com/BetweenWalls/PD2-Singleplayer/archive/main.zip)
+### [Download PlugY with item pack and characters](https://github.com/user-attachments/files/17487512/PD2-PlugY-with-Extras.zip) 
+
+---
 
 Alternatively, if you are only interested in running PlugY cleanly:
+### [Download PlugY Only](https://github.com/user-attachments/files/17487491/PD2-PlugY.zip)
 
-### [Download PlugY Only](https://github.com/BetweenWalls/PD2-PlugY/archive/main.zip)
+---
 
 ## Setup Guide
 1. Ensure you have *Diablo II LoD* and *PD2* installed
-2. Copy the **ProjectD2** and **Save** folders from the included **Diablo II** folder into your own **Diablo II** folder
+2. Copy the **ProjectD2** and **Save** folders from the downloaded file into your own **Diablo II** folder
     * If you want the item pack, copy the files in **Save\Library** into your **Save** folder (don't overwrite your stash file without backups)
     * If you want additional characters, copy them from the subfolders within **Save\Library** into your **Save** folder
-    * If you want to customize any PlugY features, they can be enabled/disabled within the **PlugY.ini** file (see the [Readme](https://raw.githubusercontent.com/BetweenWalls/PD2-Singleplayer/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt))
+    * If you want to customize any PlugY features, they can be enabled/disabled within the **PlugY.ini** file (see the [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt))
 3. Run **PlugY.exe** as administrator
 
 When new seasons/patches are released, you'll need to run PD2 via the launcher to update the game. Running the game via the launcher will also update your lootfilter.
 
-The **PlugY (testing)** file is a shortcut for using [modpacks](https://github.com/BetweenWalls/PD2-Singleplayer/tree/main#modpacks).
+The **PlugY (testing)** file is a shortcut for using [modpacks](https://github.com/xkanzeon/PD2-PlugY/tree/main#modpacks).
 
 ### Troubleshooting
 Setup:
 * PlugY may not load correctly if it is added after a fresh PD2 installation or if PD2 hasn't been updated in a while - run the game once via the launcher to fix it
 * Older versions of PlugY had a different folder structure (some files were in the **Diablo II** folder instead of the **Diablo II/ProjectD2** folder) so they won't be ovewritten automatically - delete those old files manually if there are any issues
 * Old characters from previous seasons may not load correctly - to update them, see [PD2-Converter](https://github.com/BetweenWalls/PD2-Converter#simple-characterstash-converter-for-pd2)
+    * Update: This repo may be out of date, however converting characters to Season 8 saves will allow save file compatibility, albeit with possibly outdated modifiers.
 * The first character you load after launching the game takes a long time to load:
     * Remove the -3dfx parameter from PlugY.ini and add it to your game shortcut instead
     * Change Game.exe and Diablo II.exe (in ProjectD2) to run in compatibility mode for Windows XP (Service Pack 3) and run as administrator
@@ -79,9 +84,9 @@ Additionally, the **Bases** assassin character has a personal stash with etherea
 
 The **Legacy** paladin character has select items from previous seasons.
 
-Items can be duplicated by making a file backup of the shared stash and transfering items from the stash to a character before restoring the stash file, or vice versa. Files can also be set as "read only" to eliminate the need to backup and restore them for each transfer. The fastest way to duplicate items is to use the "testing" [modpack](https://github.com/BetweenWalls/PD2-Singleplayer/tree/main#modpacks).
+Items can be duplicated by making a file backup of the shared stash and transfering items from the stash to a character before restoring the stash file, or vice versa. Files can also be set as "read only" to eliminate the need to backup and restore them for each transfer. The fastest way to duplicate items is to use the "testing" [modpack](https://github.com/xkanzeon/PD2-PlugY/tree/main#modpacks).
 
-There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://raw.githubusercontent.com/BetweenWalls/PD2-Singleplayer/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
+There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
 
 ## Characters
 This collection includes blank characters of each class at levels 30, 70, 90, and 99. These characters can be edited with vanilla editors prior to being loaded in-game.
@@ -90,7 +95,7 @@ Several "showcase" characters are also included for each class. These characters
 
 Included characters are *not* currently Andariel-quest-bugged, which is something that can only occur in singleplayer. To quest-bug a blank character, reset their Andariel quest in Hero Editor and do the bug in-game.
 
-Characters can be renamed by using the ***/renamechar newname*** command. Checkout the PlugY [Readme](https://raw.githubusercontent.com/BetweenWalls/PD2-Singleplayer/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file for other useful commands.
+Characters can be renamed by using the ***/renamechar newname*** command. Checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file for other useful commands.
 
 ## Editing
 The included blank characters can be edited with [Hero Editor](https://www.moddb.com/games/diablo-2-lod/downloads/hero-editor-v-104) or other editors, but only until they're loaded in-game. Once you play a character and save it, the character's file will be formatted differently. If you're making many edits, create copies of the unplayed character files before entering the game with them. The [PD2-Converter](https://github.com/BetweenWalls/PD2-Converter#simple-characterstash-converter-for-pd2) may also be useful for converting certain files from PD2 to vanilla in order to edit them, although it was primarily designed for converting files in the opposite direction.
@@ -134,6 +139,8 @@ If you've made your own PD2 modpack and would like it to be available here, I'd 
 
 ## Feedback
 If you would like to improve this collection with additional items, or just want to share feedback about how it could be improved, you can message me on reddit ([u/BetweenWalls](https://www.reddit.com/message/compose/?to=BetweenWalls)) or discord (@BetweenWalls). You can also just open an [issue](https://github.com/xkanzeon/PD2-PlugY/issues) here.
+
+Update: I (Kanzeon) will be attempting to maintain in BetweenWalls's GitHub absence. This means that updates to the item pack or submitted modpacks may not be put into place as promptly as they were before. If BetweenWalls does make a return to continue his repos, 
 
 Potential Improvements:
 * Testing charms with individual corruption stats or other stats with more granular values
