@@ -140,7 +140,7 @@ If you've made your own PD2 modpack and would like it to be available here, I'd 
 ## Feedback
 If you would like to improve this collection with additional items, or just want to share feedback about how it could be improved, you can message me on reddit ([u/BetweenWalls](https://www.reddit.com/message/compose/?to=BetweenWalls)) or discord (@BetweenWalls). You can also just open an [issue](https://github.com/xkanzeon/PD2-PlugY/issues) here.
 
-Update: I (Kanzeon) will be attempting to maintain in BetweenWalls's GitHub absence. This means that updates to the item pack or submitted modpacks may not be put into place as promptly as they were before. If BetweenWalls does make a return to continue his repos, 
+Update: I (Kanzeon) will be attempting to maintain in BetweenWalls's GitHub absence. This means that updates to the item pack or submitted modpacks may not be put into place as promptly as they were before. If BetweenWalls does make a return to continue his repos, I'll direct download links to the respective repos.
 
 Potential Improvements:
 * Testing charms with individual corruption stats or other stats with more granular values
