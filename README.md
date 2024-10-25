@@ -1,7 +1,7 @@
 # PD2-Singleplayer
 This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes PlugY v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
 
-This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls.
+This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls in hopes of continuing maintenance.
 
 ---
 
@@ -12,8 +12,6 @@ This repository combines both the [PD2-Singleplayer](https://github.com/BetweenW
 Alternatively, if you are only interested in running PlugY cleanly:
 ### [Download PlugY Only](https://github.com/xkanzeon/PD2-PlugY/raw/main/PD2-PlugY.zip)
 
----
-
 ## Setup Guide
 1. Ensure you have *Diablo II LoD* and *PD2* installed
 2. Copy the **ProjectD2** and **Save** folders from the downloaded file into your own **Diablo II** folder
@@ -21,6 +19,8 @@ Alternatively, if you are only interested in running PlugY cleanly:
     * If you want additional characters, copy them from the subfolders within **Save\Library** into your **Save** folder
     * If you want to customize any PlugY features, they can be enabled/disabled within the **PlugY.ini** file (see the [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/Diablo%20II/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt))
 3. Run **PlugY.exe** as administrator
+
+---
 
 When new seasons/patches are released, you'll need to run PD2 via the launcher to update the game. Running the game via the launcher will also update your lootfilter.
 
