@@ -2353,21 +2353,37 @@ upgrade exceptional weapon (staff)	1			100					2	staf,exc	imra,qty=1						useite
 upgrade exceptional weapon	1			100					2	weap,exc	imra,qty=1						useitem,mod,eli			100																										imra,qty=1																																																										0
 upgrade exceptional armor	1			100					2	armo,exc	imra,qty=1						useitem,mod,eli			100																										imra,qty=1																																																										0
 generate set weapon of same type (basic)	1			100					2	weap,bas	gps						usetype,set	99		100																										gps																																																										0
+generate set weapon of same type (basic) (New Rancid Potion)	1			100					2	weap,bas	tpgl						usetype,set	99		100																										gps																																																										0
 generate set weapon of same type (exceptional)	1			100					2	weap,exc	gps						usetype,set	99		100																										gps																																																										0
+generate set weapon of same type (exceptional) (New Rancid Potion)	1			100					2	weap,exc	tpgl						usetype,set	99		100																										gps																																																										0
 generate set weapon of same type (elite)	1			100					2	weap,eli	gps						usetype,set	99		100																										gps																																																										0
+generate set weapon of same type (elite) (New Rancid Potion)	1			100					2	weap,eli	tpgl						usetype,set	99		100																										gps																																																										0
 generate set armor of same type	1			100					2	armo	gps						usetype,set	99		100																										gps																																																										0
+generate set armor of same type (New Rancid Potion)	1			100					2	armo	tpgl						usetype,set	99		100																										gps																																																										0
 generate set ring	1			100					2	rin	gps						rin,set	99		100																										gps																																																										0
+generate set ring (New Rancid Potion)	1			100					2	rin	tpgl						rin,set	99		100																										gps																																																										0
 generate set amulet	1			100					2	amu	gps						amu,set	99		100																										gps																																																										0
+generate set amulet (New Rancid Potion)	1			100					2	amu	tpgl						amu,set	99		100																										gps																																																										0
 generate unique weapon of same type (basic)	1			100					2	weap,bas	ops						usetype,uni	99		100																										ops																																																										0
+generate unique weapon of same type (basic) (New Oil Potion)	1			100					2	weap,bas	tpfl						usetype,uni	99		100																										ops																																																										0
 generate unique weapon of same type (exceptional)	1			100					2	weap,exc	ops						usetype,uni	99		100																										ops																																																										0
+generate unique weapon of same type (exceptional) (New Oil Potion)	1			100					2	weap,exc	tpfl						usetype,uni	99		100																										ops																																																										0
 generate unique weapon of same type (elite)	1			100					2	weap,eli	ops						usetype,uni	99		100																										ops																																																										0
+generate unique weapon of same type (elite) (New Oil Potion)	1			100					2	weap,eli	tpfl						usetype,uni	99		100																										ops																																																										0
 generate unique armor of same type	1			100					2	armo	ops						usetype,uni	99		100																										ops																																																										0
+generate unique armor of same type (New Oil Potion)	1			100					2	armo	tpfl						usetype,uni	99		100																										ops																																																										0
 generate unique ring	1			100					2	rin	ops						rin,uni	99		100																										ops																																																										0
+generate unique ring (New Oil Potion)	1			100					2	rin	tpfl						rin,uni	99		100																										ops																																																										0
 generate unique amulet	1			100					2	amu	ops						amu,uni	99		100																										ops																																																										0
+generate unique amulet (New Oil Potion)	1			100					2	amu	tpfl						amu,uni	99		100																										ops																																																										0
 generate unique jewel	1			100					2	jew	ops						jew,uni	99		100																										ops																																																										0
+generate unique jewel (New Oil Potion)	1			100					2	jew	tpfl						jew,uni	99		100																										ops																																																										0
 generate unique small charm	1			100					2	cm1	ops						cm1,uni	99		100																										ops																																																										0
+generate unique small charm (New Oil Potion)	1			100					2	cm1	tpfl						cm1,uni	99		100																										ops																																																										0
 generate unique large charm	1			100					2	cm2	ops						cm2,uni	99		100																										ops																																																										0
+generate unique large charm (New Oil Potion)	1			100					2	cm2	tpfl						cm2,uni	99		100																										ops																																																										0
 generate unique grand charm	1			100					2	cm3	ops						cm3,uni	99		100																										ops																																																										0
+generate unique grand charm (New Oil Potion)	1			100					2	cm3	tpfl						cm3,uni	99		100																										ops																																																										0
 duplicate weapon	1			100					2	weap	key,qty=1						useitem	99		100																										useitem	99		100																																																							0
 duplicate armor	1			100					2	armo	key,qty=1						useitem	99		100																										useitem	99		100																										key,qty=1																													0
 duplicate ring	1			100					2	ring	key,qty=1						useitem	99		100																										useitem	99		100																										key,qty=1																													0
