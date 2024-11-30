@@ -277,7 +277,7 @@ Atma's Scarab	100	1		5	1	60	60	amu	Amulet			5	5000	cgrn	cgrn						Deep-Wounds		3
 Dwarf Star	100	1		10	1	53	45	rin	Ring			5	5000	dgry	dgry						gold%		100	100	stam		50	50	block		5	5	hp		50	50	red-mag		15	15	abs-fire%		6	6																									0
 Raven Frost	100	1		10	1	53	45	rin	Ring			5	5000	cblu	cblu						nofreeze		1	1	dmg-cold	100	15	45	abs-cold%		5	5	mana		40	40	dex		20	20	att		250	250																									0
 Highlord's Wrath	100	1		5	1	73	65	amu	Amulet			5	5000	bwht	bwht						res-ltng		40	40	dmg-ltng		1	300	swing2		20	20	allskills		1	1	deadly/lvl	2			light-thorns		150	150																									0
-Saracen's Chance	100	1		5	1	55	47	amu	Amulet			5	5000	dpur	dpur						res-all		25	25	dmg%		50	50	all-stats		12	12	gethit-skill	444	12	12	curse-effectiveness		10	10																													0
+Saracen's Chance	100	1		5	1	55	47	amu	Amulet			5	5000	dpur	dpur						res-all		25	25	dmg%		50	50	all-stats		12	12	gethit-skill	444	10	12	curse-effectiveness		10	10																													0
 Class Specific					1																																																																0
 Arreat's Face	100	1		1	1	50	42	baa	Slayer Guard			5	5000								bar		2	2	skilltab	12	2	2	ac%		200	200	balance2		30	30	att%		20	20	str		20	20	dex		20	20	lifesteal		6	6	res-all		20	20													0
 Homunculus	100	1		1	1	50	42	nea	Heirophant Trophy			5	5000								nec		2	2	ac%		200	200	block2		30	30	block		40	40	enr		20	20	regen-mana		33	33	mana-kill		5	5	res-all		40	40																	0
