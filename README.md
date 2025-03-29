@@ -89,7 +89,7 @@ Items can be duplicated by making a file backup of the shared stash and transfer
 There are in-game commands for renaming stash pages and moving stash pages around, as well as some other useful commands - checkout the PlugY [Readme](https://raw.githubusercontent.com/xkanzeon/PD2-PlugY/main/ProjectD2/PlugY_The_Survival_Kit_-_Readme.txt) file.
 
 ## Characters
-This collection includes blank characters of each class at levels 30, 70, 90, and 99. These characters can be edited with vanilla editors prior to being loaded in-game.
+This collection includes blank characters of each class at levels 30, 70, 80, 90, and 99. These characters can be edited with vanilla editors prior to being loaded in-game.
 
 Several "showcase" characters are also included for each class. These characters are from previous ladders that were shared with the community and showcased on stream.
 
