@@ -1,5 +1,5 @@
 # PD2-Singleplayer
-This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes PlugY v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
+This collection aims to include everything you'd want for singleplayer testing in [Project D2](https://www.projectdiablo2.com/). The singleplayer [PlugY mod](http://plugy.free.fr/) adds shared/personal stash pages and allows unlimited skill/stat resets as well as several other optional features. This collection includes a [custom build of PlugY](https://github.com/xkanzeon/PlugY-PD2-Version) based on v14.03 with settings adjusted for PD2. It also includes an item pack, characters, and modpacks for testing or advanced customization.
 
 This repository combines both the [PD2-Singleplayer](https://github.com/BetweenWalls/PD2-Singleplayer) and [PD2-PlugY](https://github.com/BetweenWalls/PD2-PlugY) repositories from BetweenWalls in hopes of continuing maintenance.
 
@@ -39,7 +39,8 @@ Setup:
 PlugY bugs:
 * If a single stash page contains many items that each have many affixes (e.g. maps) then crashes can occur when accessing that page or at any time if that page was the most recently viewed page
     * FIX: Reduce the number of maps stored per page, or switch to another page before leaving the stash
-* Having gold in the shared stash can cause issues such as preventing oskills from working correctly (disabled by default)
+* ~~Having gold in the shared stash can cause issues such as preventing oskills from working correctly~~ (disabled by default)
+    * NOTE: This may have been fixed with a patch to PlugY itself, please test if willing; however, the addition of the `/gold` command makes this less important.
     * FIX: Ensure no "shared gold" remains in the stash during normal gameplay
 * The "toggle stash" button may be set to the wrong stash upon loading until interacting with the current stash - this happens if the most recent stash interaction prior to saving/exiting involved using a PlugY stash button instead of manipulating an item in the stash
     * FIX: Add or remove an item from the stash prior to saving/exiting (this also fixes the button at any time if it's set wrong)
